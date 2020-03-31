@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="shortcut icon" href="./img/logo.png" />
+    <title>Naruto Team07 :: Contact</title>
+  </head>
+
+  <body>
+    <div class="nav-bar">
+      <!-- Nav image -->
+      <div class="nav-img">
+        <img
+          src="./img/team7.jpg"
+          width="40%"
+          alt="Naruto Team 7"
+          title="Naruto Team 7"
+        />
+      </div>
+
+      <!-- Nav menu -->
+      <div class="nav-menu">
+        <ul>
+          <li><a href="#"> HOME &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
+          <li><a href="#"> JOBS &nbsp; &nbsp; &nbsp; &nbsp; </a></li>
+          <li><a id="active" href="#"> CONTACT &nbsp; </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="title">
+      GENERAL INQUIRIES
+    </div>
+
+    <div id="form" align="center">
+      <form name="deadline">
+        <label for="txtName">NAME </label>
+        <div class="required">required</div>
+        <br />
+        <input
+          class="inp"
+          type="text"
+          name="txtName"
+          id="txtName"
+          placeholder="Enter your name here....."
+        />
+        <br />
+        <label for="txtEmail">EMAIL </label>
+        <div class="required">required</div>
+        <br />
+        <input
+          class="inp"
+          type="text"
+          name="txtEmail"
+          id="txtEmail"
+          placeholder="Enter your mail here....."
+        />
+        <br />
+        <label for="txtEnquiry">NATURE OF ENQUIRY </label>
+        <br />
+        <select
+          class="inp"
+          id="txtEnquiry"
+          name="txtEnquiry"
+          style="width: 94%;"
+        >
+          <option value="general"> General </option>
+          <option value="register team"> Register team </option>
+          <option value="mission"> Mission </option>
+          <option value="sensei choice"> Sensei </option>
+        </select>
+        <br />
+        <label for="txtaMessage">MESSAGE </label>
+        <br />
+        <textarea
+          class="inp"
+          name="txtaMessage"
+          id="txtaMessage"
+          placeholder="Enter your message here....."
+        ></textarea>
+        <br />
+        <label for="txtCalculator">3 + 4 = ? </label>
+        <div class="required">required</div>
+        <br />
+        <input
+          class="inp"
+          type="text"
+          name="txtCalculator"
+          id="txtCalculator"
+          placeholder="Enter the result of the operation....."
+        />
+        <br />
+        <input
+          id="sub"
+          type="submit"
+          name="submit"
+          value="SUBMIT"
+          onclick="alert('♥ Your request has been sent. Thank you! ♥')"
+        />
+      </form>
+    </div>
+
+    <div id="footer">
+      1000 Online Users - 333 Visited Users
+    </div>
+
+    <marquee style="font-size: 12pt;">
+      Welcome to our team. We are Team 7 from Leaf Village -
+      <strong style="color: rgb(255, 170, 43);">Naruto</strong>,
+      <strong style="color: rgb(255, 43, 174);">Sakura</strong>,
+      <strong style="color: rgb(43, 47, 255);">Sasuke</strong> and
+      <strong style="color: rgb(141, 141, 141);">Kakashi Sensei</strong>.
+    </marquee>
+  </body>
+</html>
